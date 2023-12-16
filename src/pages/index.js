@@ -6,6 +6,7 @@ import Banner from "../../components/banner/Banner";
 import Explore from "../../components/explore/Explore";
 import Trendings from "../../components/trendings/Trendings";
 import FeaturePart from "../../components/feature_part/FeaturePart";
+import SimpleSlider from "../../components/slider/Slider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,6 +33,7 @@ export default function Home() {
       ></Explore>
       <Trendings></Trendings>
       <FeaturePart></FeaturePart>
+      <SimpleSlider></SimpleSlider>
     </>
   );
 }

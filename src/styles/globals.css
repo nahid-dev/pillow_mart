@@ -15,3 +15,9 @@
 .p_bg{
     @apply bg-[#B08EAD];
 }
+
+.slick-prev.slick-arrow  {
+    background: transparent;
+    color: black !important;
+
+}

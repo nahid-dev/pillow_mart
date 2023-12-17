@@ -7,6 +7,8 @@ import Explore from "../../components/explore/Explore";
 import Trendings from "../../components/trendings/Trendings";
 import FeaturePart from "../../components/feature_part/FeaturePart";
 import SimpleSlider from "../../components/slider/Slider";
+import SubscribePart from "../../components/subscribe_part/SubscribePart";
+import Footer from "../../components/footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,8 +34,10 @@ export default function Home() {
         image_position_2={"left-7"}
       ></Explore>
       <Trendings></Trendings>
-      <FeaturePart></FeaturePart>
       <SimpleSlider></SimpleSlider>
+      <FeaturePart></FeaturePart>
+      <SubscribePart> </SubscribePart>
+      <Footer></Footer>
     </>
   );
 }

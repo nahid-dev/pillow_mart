@@ -15,9 +15,6 @@
 .p_bg{
     @apply bg-[#B08EAD];
 }
-
-.slick-prev.slick-arrow  {
-    background: transparent;
-    color: black !important;
-
+.subscribe_part_bg{
+    @apply bg-[#4B3049]
 }

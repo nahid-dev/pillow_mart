@@ -12,17 +12,13 @@ const SimpleSlider = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    navigator: true,
   };
 
   return (
     <div className="py-[100px] px-10 p_bg">
-      <h2 className="text-3xl font-bold mb-5"> Main Slider</h2>
       <Container>
         <Slider {...settings}>
-          <div
-            className={`border border-black flex justify-center text-center`}
-          >
+          <div className={` flex justify-center text-center md:px-20`}>
             <div className=" inline-block relative mb-5">
               <Image
                 src="/images/slides_img/client.png.webp"
@@ -42,10 +38,10 @@ const SimpleSlider = () => {
             </div>
           </div>
 
-          <div className="border border-black flex justify-center text-center">
+          <div className=" flex justify-center text-center md:px-20">
             <div className=" inline-block relative mb-5">
               <Image
-                src="/images/slides_img/client.png.webp"
+                src="/images/slides_img/client_1.png.webp"
                 width={100}
                 height={100}
               ></Image>
@@ -62,10 +58,10 @@ const SimpleSlider = () => {
             </div>
           </div>
 
-          <div className="border border-black flex justify-center text-center">
+          <div className=" flex justify-center text-center md:px-20">
             <div className=" inline-block relative mb-5">
               <Image
-                src="/images/slides_img/client.png.webp"
+                src="/images/slides_img/client_2.png.webp"
                 width={100}
                 height={100}
               ></Image>

@@ -37,7 +37,7 @@ export default function Home() {
       <SimpleSlider></SimpleSlider>
       <FeaturePart></FeaturePart>
       <SubscribePart> </SubscribePart>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </>
   );
 }

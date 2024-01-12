@@ -3,6 +3,8 @@ import Container from "../container/Container";
 import Image from "next/image";
 import { IoMdPlay } from "react-icons/io";
 import { IoMdClose } from "react-icons/io";
+import FeaturePart from "../feature_part/FeaturePart";
+import SubscribePart from "../subscribe_part/SubscribePart";
 
 const openYouTubeVideo = (url) => {
   window.open(url, "YouTube Video", "width=800, height=600, resizable=yes");
@@ -76,6 +78,8 @@ const AboutUs = () => {
           <div className="col-span-2"></div>
         </div>
       </Container>
+      <FeaturePart></FeaturePart>
+      <SubscribePart> </SubscribePart>
 
       {modalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
